@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "tb_category")
-public class Category implements Serializable{
+public class Category implements Serializable {
 	private static final long serialVersionUID = 1L; // Padrão para q o objeto java seja convertido em bytes (en sequencia de bytes),para o objeto seja gravado em arquivos, passar nas redes.  
 	
 	@Id
